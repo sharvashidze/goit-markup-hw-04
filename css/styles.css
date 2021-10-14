@@ -114,7 +114,15 @@ ul {
 }
 /*----✌️Герой Страницы🤞-----*/
 .section-hero {
-  bak
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/sobranie.jpg);
   height: 600px;
   max-width: 1600px;
   background-color: var(--цвет-футер-фон);
