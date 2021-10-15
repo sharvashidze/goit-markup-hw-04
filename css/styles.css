@@ -4,6 +4,7 @@ body {
   background-color: var(--цвет-фона);
 }
 :root {
+  --цвет-иконок: #afb1b8;
   --основной-цвет: #757575;
   --цвет-фокуса: #2196f3;
   --цвет-текста: #212121;
@@ -170,9 +171,27 @@ ul {
 }
 /*--✌️Характеристики Страницы🤞---*/
 .is-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
   text-align: center;
+}
+.back-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--цвет-секции);
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
   margin-bottom: 30px;
 }
+
 .Specifications {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -262,6 +281,36 @@ ul {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+/*-----✌️страница КЛИЕНТЫ🤞-----*/
+.customers {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.customers-list {
+  display: flex;
+}
+.customers-item {
+  margin-right: 30px;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid var(--цвет-иконок);
+}
+.customers-item:last-child {
+  margin-right: 0px;
+}
+
 /*---✌️Нижняя часть страницы🤞---*/
 /*--✌️Нижняя часть LOGO🤞---*/
 .logo2 {
