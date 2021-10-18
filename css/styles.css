@@ -35,6 +35,9 @@ ul {
   list-style: none;
   padding: 0;
 }
+img {
+  display: block;
+}
 .conteiner {
   width: 1200px;
   margin-left: auto;
@@ -44,12 +47,11 @@ ul {
 }
 /*--✌️Шапка Страницы🤞--*/
 .main-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .page-header {
-  padding-bottom: 32px;
-  padding-top: 32px;
   display: flex;
+  align-items: center;
 }
 /*-------✌️LOGO🤞------*/
 .logo {
@@ -66,17 +68,19 @@ ul {
   color: var(--цвет-фокуса);
 }
 /*-----✌️нав список🤞---*/
-.nav-item {
-  display: inline-block;
+.nav-list {
+  display: flex;
 }
+
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
 .main-nav {
-  display: flex;
   align-items: center;
 }
 .nav-link {
+  padding-bottom: 32px;
+  padding-top: 32px;
   display: inline-block;
   font-style: normal;
   font-weight: 500;
@@ -96,7 +100,6 @@ ul {
 .nav-list-contacts {
   display: flex;
   margin-left: auto;
-  align-items: center;
 }
 .nav-contacts:not(:last-child) {
   margin-right: 50px;
@@ -124,17 +127,15 @@ ul {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/sobranie.jpg);
-  height: 600px;
-  max-width: 1600px;
-  background-color: var(--цвет-футер-фон);
-}
-
-.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-color: var(--цвет-футер-фон);
+  background-color: var(--цвет-футер-фон);
 }
+
 .title {
+  width: 696px;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -144,10 +145,18 @@ ul {
   text-transform: uppercase;
   color: var(--цвет-фона);
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
   display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  background-color: var(--цвет-фокуса);
+}
+.main-btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -155,13 +164,6 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  border-style: none;
-}
-
-.main-btn {
-  background-color: var(--цвет-фокуса);
   color: var(--цвет-фона);
 }
 .button:hover,
@@ -183,7 +185,6 @@ ul {
 }
 .back-icon {
   width: 270px;
-  height: 120px;
   background-color: var(--цвет-секции);
   border-radius: 4px;
   text-align: center;
@@ -193,11 +194,13 @@ ul {
 }
 
 .Specifications {
-  padding-bottom: 94px;
   padding-top: 94px;
 }
 .Specifications-list {
   display: flex;
+}
+.Specifications-item {
+  width: 270px;
 }
 .Specifications-item:not(:last-child) {
   margin-right: 30px;
@@ -253,7 +256,6 @@ ul {
 }
 .team-item {
   width: 270px;
-  height: 368px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -278,8 +280,8 @@ ul {
 }
 
 .team-person {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*-----✌️страница КЛИЕНТЫ🤞-----*/
 .customers {
@@ -330,7 +332,8 @@ ul {
   margin-bottom: 20px;
 }
 .footer-page {
-  max-width: 1600px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--цвет-футер-фон);
 }
 .footer-contacts {
@@ -416,9 +419,7 @@ ul {
 }
 .product-item {
   width: 370px;
-  height: 404px;
   background: var(--цвет-фона);
-  border: 1px solid #eeeeee;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -429,5 +430,8 @@ ul {
   margin-bottom: 0px;
 }
 .product {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
