@@ -277,6 +277,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .team-person {
@@ -306,13 +307,17 @@ img {
   display: inline-block;
   width: 170px;
   height: 92px;
+  box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid var(--цвет-иконок);
+  cursor: pointer;
 }
 .customers-item:last-child {
   margin-right: 0px;
 }
-
+.customers-icon {
+  fill: var(--цвет-иконок);
+}
 /*---✌️Нижняя часть страницы🤞---*/
 /*--✌️Нижняя часть LOGO🤞---*/
 .logo2 {
@@ -439,10 +444,14 @@ img {
 -------Страница КОМАНДЫ🤞----*/
 .icon-list {
   display: flex;
-  padding-bottom: 30px;
   justify-content: space-evenly;
 }
-
+.icon-item {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 50%;
+}
 .icon-item:not(:last-child) {
   margin-right: 10px;
 }
