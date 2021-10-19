@@ -393,6 +393,14 @@ img {
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
+.icon-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--цвет-фона);
+}
 /*----✌️Страница PORTFOLIO🤞----*/
 .buttons-products {
   padding-bottom: 94px;
