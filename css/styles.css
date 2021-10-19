@@ -284,6 +284,31 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/*----✌️VSG-ИКОНКИ для 
+-------Страница КОМАНДЫ🤞----*/
+.icon-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+.icon-block {
+  text-align: center;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: yellow;
+  cursor: pointer;
+}
+.icon-block:hover {
+  background-color: var(--цвет-фокуса);
+}
+
+.icon-link {
+  fill: var(--цвет-иконок);
+}
 /*-----✌️страница КЛИЕНТЫ🤞-----*/
 .customers {
   padding-bottom: 94px;
@@ -439,19 +464,4 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-}
-/*----✌️VSG-ИКОНКИ для 
--------Страница КОМАНДЫ🤞----*/
-.icon-list {
-  display: flex;
-  justify-content: space-evenly;
-}
-.icon-item {
-  width: 44px;
-  height: 44px;
-  padding: 12px;
-  border-radius: 50%;
-}
-.icon-item:not(:last-child) {
-  margin-right: 10px;
 }
