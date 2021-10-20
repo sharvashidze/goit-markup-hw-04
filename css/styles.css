@@ -105,6 +105,8 @@ img {
   margin-right: 50px;
 }
 .contacts {
+  align-items: center;
+  display: inline-flex;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -116,6 +118,14 @@ img {
 .contacts:focus {
   color: var(--цвет-фокуса);
 }
+.icon-contacts:hover {
+  fill: currentColor;
+}
+.icon-contacts {
+  margin-right: 10px;
+  fill: var(--основной-цвет);
+}
+
 /*----✌️Герой Страницы🤞-----*/
 .section-hero {
   background-position: center;
