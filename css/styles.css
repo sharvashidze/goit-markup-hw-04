@@ -113,17 +113,16 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--основной-цвет);
+  fill: var(--основной-цвет);
 }
 .contacts:hover,
 .contacts:focus {
   color: var(--цвет-фокуса);
+  fill: var(--цвет-фокуса);
 }
-.icon-contacts:hover {
-  fill: currentColor;
-}
+
 .icon-contacts {
   margin-right: 10px;
-  fill: var(--основной-цвет);
 }
 
 /*----✌️Герой Страницы🤞-----*/
