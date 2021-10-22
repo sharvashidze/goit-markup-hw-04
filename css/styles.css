@@ -127,6 +127,7 @@ img {
 
 /*----✌️Герой Страницы🤞-----*/
 .section-hero {
+  max-width: 1600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -139,7 +140,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--цвет-футер-фон);
   background-color: var(--цвет-футер-фон);
 }
 
