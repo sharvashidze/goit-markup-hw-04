@@ -193,12 +193,14 @@ img {
   text-align: center;
 }
 .back-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
+  height: 120px;
   background-color: var(--цвет-секции);
   border-radius: 4px;
   text-align: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-bottom: 30px;
 }
 
@@ -292,24 +294,25 @@ img {
 .team-person {
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 /*----✌️VSG-ИКОНКИ для 
 -------Страница КОМАНДЫ🤞----*/
 .icon-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .icon-item:not(:last-child) {
   margin-right: 10px;
 }
 .icon-link {
-  display: inline-block;
-  text-align: center;
-  padding: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--цвет-иконок);
 }
 .icon-link:hover {
   fill: var(--цвет-фона);
@@ -335,12 +338,11 @@ img {
   margin-right: 30px;
 }
 .customers-link {
-  padding: 16px 32px;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 92px;
-  display: inline-block;
-  box-sizing: border-box;
   border-radius: 4px;
   border: 1px solid var(--цвет-иконок);
   fill: var(--цвет-иконок);
@@ -422,9 +424,9 @@ img {
   display: flex;
 }
 .footer-link {
-  display: inline-block;
-  text-align: center;
-  padding: 12px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -453,13 +455,13 @@ img {
   cursor: pointer;
   padding: 6px 22px;
   border-style: none;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .buttons:hover,
 .buttons:focus {
   color: var(--цвет-фона);
   background-color: var(--цвет-фокуса);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-list {
   display: flex;
@@ -507,7 +509,6 @@ img {
   border-right: 1px solid #eeeeee;
 }
 .product-item:hover {
-  box-sizing: border-box;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
