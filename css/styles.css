@@ -315,9 +315,15 @@ img {
   border-radius: 50%;
 }
 .icon-link:hover {
-  fill: var(--цвет-фона);
   background-color: var(--цвет-фокуса);
 }
+.icon-link:hover .icon {
+  fill: var(--цвет-фона);
+}
+.icon {
+  fill: var(--цвет-иконок);
+}
+
 /*-----✌️страница КЛИЕНТЫ🤞-----*/
 .customers {
   padding-bottom: 94px;
