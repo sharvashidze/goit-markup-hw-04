@@ -436,8 +436,10 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--цвет-фона);
   background-color: rgba(255, 255, 255, 0.1);
+}
+.icon2 {
+  fill: var(--цвет-фона);
 }
 .footer-link:hover {
   background-color: var(--цвет-фокуса);
